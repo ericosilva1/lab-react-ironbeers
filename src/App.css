@@ -48,42 +48,92 @@ p {
   font-size: 20px;
 }
 
-/* RandomBeer */
-
-.product--random{
-  width: 100px;
-  margin-top: 50px
-}
-
-.random--container{
+/*-------All Beers-------*/
+.all-beers {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.random--name{
+.product--random {
+  width: 100px;
+  margin-top: 50px;
+}
+
+.random--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.beer-card {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0px;
+  border: 1px solid rgb(196, 196, 196);
+  width: 64.9%;
+}
+
+.beer-card-img {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.beer-card-img img {
+  height: 200px;
+  margin-right: 20px;
+}
+
+.beer-card-text {
+  width: 45%;
+}
+
+.beer-card-text p,
+h1 {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.beer-card-text h1 {
+  font-weight: 400;
+  font-size: 35px;
+}
+
+.beer-card-text p {
+  margin: 0;
+  padding: 0;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.bold-text {
+  font-weight: 400;
+}
+.random--name {
   display: flex;
   justify-content: space-evenly;
   width: 40%;
   margin: 0;
 }
 
-.random--tagLine_brewed{
+.random--tagLine_brewed {
   display: flex;
   justify-content: space-evenly;
   width: 40%;
   margin: 0;
 }
 
-.random--discription{
+.random--discription {
   width: 40%;
   font-weight: bold;
   margin-left: 0;
 }
 
-.random--contibuted_by{
+.random--contibuted_by {
   width: 40%;
-  color: rgb(181, 181, 181); 
-  margin-left: 30px
+  color: rgb(181, 181, 181);
+  margin-left: 30px;
 }
